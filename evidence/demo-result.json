@@ -1,0 +1,817 @@
+{
+  "proofFormat": "sanitized-public-demo-v1",
+  "name": "intentballot",
+  "chainId": 61997,
+  "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+  "contractUrl": "https://explorer-studio-dev.genlayer.com/address/0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+  "deploymentTxHash": "0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+  "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+  "completeDeployedSourceMatches": true,
+  "syntheticInputsOnly": true,
+  "transactionValue": "0",
+  "normalConsensus": true,
+  "finalizations": [
+    {
+      "hash": "0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17"
+    },
+    {
+      "hash": "0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187"
+    },
+    {
+      "hash": "0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17"
+    },
+    {
+      "hash": "0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d"
+    },
+    {
+      "hash": "0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b"
+    },
+    {
+      "hash": "0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548"
+    },
+    {
+      "hash": "0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db"
+    }
+  ],
+  "steps": [
+    {
+      "stage": "poll-open",
+      "method": "open_poll",
+      "operationHash": "e90ef9419710e0c95086fba65a7c54e534a9fb369363f9af47518739ddb9a939",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:33:03.153Z",
+      "observation": {
+        "ballot_ids": [],
+        "core": {
+          "chain_id": 61997,
+          "commit_until": 1795340093,
+          "confirm_until": 1795340513,
+          "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+          "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+          "created_at": 1795339973,
+          "id": 0,
+          "min_confirmed": 1,
+          "options": [
+            {
+              "option_id": 0,
+              "text": "CSV export with tests."
+            },
+            {
+              "option_id": 1,
+              "text": "JSON export with tests."
+            },
+            {
+              "option_id": 2,
+              "text": "Parquet export with tests."
+            }
+          ],
+          "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+          "reveal_until": 1795340213,
+          "title": "Synthetic export preference",
+          "voters": [
+            "0x7434ae572fe729622edb306e04c90284b6a1247d"
+          ]
+        },
+        "last_observed_at": 1795339973,
+        "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+        "result": null,
+        "revision": 0,
+        "status": "OPEN"
+      }
+    },
+    {
+      "stage": "ballot-commit",
+      "method": "commit_ballot",
+      "operationHash": "e6ffc4e48075179e971a85c334df901fca677a09ed59301269ab78367d45370d",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:33:15.670Z",
+      "observation": {
+        "attempts": 0,
+        "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+        "committed_at": 1795339984,
+        "confirmed_at": 0,
+        "id": 0,
+        "locked": null,
+        "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+        "poll_id": 0,
+        "receipt": null,
+        "receipt_hash": "",
+        "status": "COMMITTED",
+        "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+      }
+    },
+    {
+      "stage": "ballot-reveal",
+      "method": "reveal_ballot",
+      "operationHash": "37e265ab733c7ccc44cd598424cf246b5cc5498f68a48dc85f66b517b9b39b74",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:35:02.875Z",
+      "observation": {
+        "attempts": 0,
+        "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+        "committed_at": 1795339984,
+        "confirmed_at": 0,
+        "id": 0,
+        "locked": {
+          "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+          "committed_at": 1795339984,
+          "id": 0,
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "poll_id": 0,
+          "revealed_at": 1795340096,
+          "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+          "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+          "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+          "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+        },
+        "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+        "poll_id": 0,
+        "receipt": null,
+        "receipt_hash": "",
+        "status": "REVEALED",
+        "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+      }
+    },
+    {
+      "stage": "ballot-assess",
+      "method": "assess_ballot",
+      "operationHash": "f7f490cc67e7539ea3c01db6e67500179674f3b656f0cfc728f0180fb6b6bfda",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:35:27.619Z",
+      "observation": {
+        "ballot": {
+          "attempts": 1,
+          "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+          "committed_at": 1795339984,
+          "confirmed_at": 0,
+          "id": 0,
+          "locked": {
+            "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+            "committed_at": 1795339984,
+            "id": 0,
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "poll_id": 0,
+            "revealed_at": 1795340096,
+            "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+            "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+            "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+            "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+          },
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "poll_id": 0,
+          "receipt": {
+            "assessed_at": 1795340103,
+            "attempt": 1,
+            "ballot": {
+              "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+              "committed_at": 1795339984,
+              "id": 0,
+              "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+              "poll_id": 0,
+              "revealed_at": 1795340096,
+              "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+              "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+              "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+              "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+            },
+            "ballot_hash": "0014bdaae328bf0413a4dc38b317a3550d23f7659a609ce52cab4ebe57002f39",
+            "compilation_status": "RANKED",
+            "confirmation_allowed": true,
+            "decision": "READY",
+            "inspection": {
+              "prompt_chars": 2165,
+              "prompt_sha256": "1eb343239f946218bb187c8b668fa0633705857e3605ca83a38e8f73d9b8718d",
+              "prompt_truncated": false,
+              "prompt_utf8_bytes": 2165,
+              "semantic_complete": true
+            },
+            "poll": {
+              "chain_id": 61997,
+              "commit_until": 1795340093,
+              "confirm_until": 1795340513,
+              "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+              "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+              "created_at": 1795339973,
+              "id": 0,
+              "min_confirmed": 1,
+              "options": [
+                {
+                  "option_id": 0,
+                  "text": "CSV export with tests."
+                },
+                {
+                  "option_id": 1,
+                  "text": "JSON export with tests."
+                },
+                {
+                  "option_id": 2,
+                  "text": "Parquet export with tests."
+                }
+              ],
+              "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+              "reveal_until": 1795340213,
+              "title": "Synthetic export preference",
+              "voters": [
+                "0x7434ae572fe729622edb306e04c90284b6a1247d"
+              ]
+            },
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "schema": "intentballot-v1",
+            "tiers": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ]
+          },
+          "receipt_hash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+          "status": "READY",
+          "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+        },
+        "attempt": {
+          "assessed_at": 1795340103,
+          "attempt": 1,
+          "ballot": {
+            "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+            "committed_at": 1795339984,
+            "id": 0,
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "poll_id": 0,
+            "revealed_at": 1795340096,
+            "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+            "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+            "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+            "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+          },
+          "ballot_hash": "0014bdaae328bf0413a4dc38b317a3550d23f7659a609ce52cab4ebe57002f39",
+          "compilation_status": "RANKED",
+          "confirmation_allowed": true,
+          "decision": "READY",
+          "inspection": {
+            "prompt_chars": 2165,
+            "prompt_sha256": "1eb343239f946218bb187c8b668fa0633705857e3605ca83a38e8f73d9b8718d",
+            "prompt_truncated": false,
+            "prompt_utf8_bytes": 2165,
+            "semantic_complete": true
+          },
+          "poll": {
+            "chain_id": 61997,
+            "commit_until": 1795340093,
+            "confirm_until": 1795340513,
+            "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+            "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+            "created_at": 1795339973,
+            "id": 0,
+            "min_confirmed": 1,
+            "options": [
+              {
+                "option_id": 0,
+                "text": "CSV export with tests."
+              },
+              {
+                "option_id": 1,
+                "text": "JSON export with tests."
+              },
+              {
+                "option_id": 2,
+                "text": "Parquet export with tests."
+              }
+            ],
+            "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+            "reveal_until": 1795340213,
+            "title": "Synthetic export preference",
+            "voters": [
+              "0x7434ae572fe729622edb306e04c90284b6a1247d"
+            ]
+          },
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "schema": "intentballot-v1",
+          "tiers": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "stage": "ballot-confirm",
+      "method": "confirm_ballot",
+      "operationHash": "1bb3b64774f09b3582ecc50c619fd685a77ead038c415a4630bbb50d356c5dd1",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:37:05.470Z",
+      "observation": {
+        "attempts": 1,
+        "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+        "committed_at": 1795339984,
+        "confirmed_at": 1795340216,
+        "id": 0,
+        "locked": {
+          "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+          "committed_at": 1795339984,
+          "id": 0,
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "poll_id": 0,
+          "revealed_at": 1795340096,
+          "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+          "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+          "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+          "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+        },
+        "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+        "poll_id": 0,
+        "receipt": {
+          "assessed_at": 1795340103,
+          "attempt": 1,
+          "ballot": {
+            "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+            "committed_at": 1795339984,
+            "id": 0,
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "poll_id": 0,
+            "revealed_at": 1795340096,
+            "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+            "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+            "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+            "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+          },
+          "ballot_hash": "0014bdaae328bf0413a4dc38b317a3550d23f7659a609ce52cab4ebe57002f39",
+          "compilation_status": "RANKED",
+          "confirmation_allowed": true,
+          "decision": "READY",
+          "inspection": {
+            "prompt_chars": 2165,
+            "prompt_sha256": "1eb343239f946218bb187c8b668fa0633705857e3605ca83a38e8f73d9b8718d",
+            "prompt_truncated": false,
+            "prompt_utf8_bytes": 2165,
+            "semantic_complete": true
+          },
+          "poll": {
+            "chain_id": 61997,
+            "commit_until": 1795340093,
+            "confirm_until": 1795340513,
+            "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+            "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+            "created_at": 1795339973,
+            "id": 0,
+            "min_confirmed": 1,
+            "options": [
+              {
+                "option_id": 0,
+                "text": "CSV export with tests."
+              },
+              {
+                "option_id": 1,
+                "text": "JSON export with tests."
+              },
+              {
+                "option_id": 2,
+                "text": "Parquet export with tests."
+              }
+            ],
+            "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+            "reveal_until": 1795340213,
+            "title": "Synthetic export preference",
+            "voters": [
+              "0x7434ae572fe729622edb306e04c90284b6a1247d"
+            ]
+          },
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "schema": "intentballot-v1",
+          "tiers": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        "receipt_hash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+        "status": "CONFIRMED",
+        "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+      }
+    },
+    {
+      "stage": "poll-finalize",
+      "method": "finalize_poll",
+      "operationHash": "5013cf6a4f71757e7398b847227273ae23b946d5d6ecba11b6c2d53a849aa271",
+      "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+      "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+      "txHash": "0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:42:08.228Z",
+      "observation": {
+        "poll": {
+          "ballot_ids": [
+            0
+          ],
+          "core": {
+            "chain_id": 61997,
+            "commit_until": 1795340093,
+            "confirm_until": 1795340513,
+            "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+            "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+            "created_at": 1795339973,
+            "id": 0,
+            "min_confirmed": 1,
+            "options": [
+              {
+                "option_id": 0,
+                "text": "CSV export with tests."
+              },
+              {
+                "option_id": 1,
+                "text": "JSON export with tests."
+              },
+              {
+                "option_id": 2,
+                "text": "Parquet export with tests."
+              }
+            ],
+            "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+            "reveal_until": 1795340213,
+            "title": "Synthetic export preference",
+            "voters": [
+              "0x7434ae572fe729622edb306e04c90284b6a1247d"
+            ]
+          },
+          "last_observed_at": 1795340516,
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "result": {
+            "co_winner_ids": [
+              0
+            ],
+            "confirmed_ballots": [
+              {
+                "ballot_id": 0,
+                "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+                "confirmed_at": 1795340216,
+                "receipt_hash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+                "tiers": [
+                  [
+                    0
+                  ],
+                  [
+                    1
+                  ],
+                  [
+                    2
+                  ]
+                ],
+                "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+              }
+            ],
+            "confirmed_count": 1,
+            "finalized_at": 1795340516,
+            "min_confirmed": 1,
+            "optimal_orders": [
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            "optimal_score": 3,
+            "options": [
+              {
+                "option_id": 0,
+                "text": "CSV export with tests."
+              },
+              {
+                "option_id": 1,
+                "text": "JSON export with tests."
+              },
+              {
+                "option_id": 2,
+                "text": "Parquet export with tests."
+              }
+            ],
+            "pairwise_matrix": [
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "poll_id": 0,
+            "result_hash": "6bc535e52c438221efb677ce5092b24130240db725568a96a4410792ee6a0888",
+            "schema": "intentballot-v1-tally",
+            "selected_option": 0,
+            "status": "DECIDED"
+          },
+          "revision": 5,
+          "status": "DECIDED"
+        },
+        "ballot": {
+          "attempts": 1,
+          "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+          "committed_at": 1795339984,
+          "confirmed_at": 1795340216,
+          "id": 0,
+          "locked": {
+            "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+            "committed_at": 1795339984,
+            "id": 0,
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "poll_id": 0,
+            "revealed_at": 1795340096,
+            "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+            "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+            "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+            "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+          },
+          "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+          "poll_id": 0,
+          "receipt": {
+            "assessed_at": 1795340103,
+            "attempt": 1,
+            "ballot": {
+              "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+              "committed_at": 1795339984,
+              "id": 0,
+              "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+              "poll_id": 0,
+              "revealed_at": 1795340096,
+              "salt": "94ec756ee0ef6d6fe13154c38470d42594ee4d46cba86b6bee68352dbb5a9fa9",
+              "statement": "I strictly prefer CSV export to JSON export, and JSON export to Parquet export.",
+              "statement_sha256": "c2d307c4df577b29068d05b3cc065013a51d1ebce4827039433b87578bd72713",
+              "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+            },
+            "ballot_hash": "0014bdaae328bf0413a4dc38b317a3550d23f7659a609ce52cab4ebe57002f39",
+            "compilation_status": "RANKED",
+            "confirmation_allowed": true,
+            "decision": "READY",
+            "inspection": {
+              "prompt_chars": 2165,
+              "prompt_sha256": "1eb343239f946218bb187c8b668fa0633705857e3605ca83a38e8f73d9b8718d",
+              "prompt_truncated": false,
+              "prompt_utf8_bytes": 2165,
+              "semantic_complete": true
+            },
+            "poll": {
+              "chain_id": 61997,
+              "commit_until": 1795340093,
+              "confirm_until": 1795340513,
+              "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+              "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+              "created_at": 1795339973,
+              "id": 0,
+              "min_confirmed": 1,
+              "options": [
+                {
+                  "option_id": 0,
+                  "text": "CSV export with tests."
+                },
+                {
+                  "option_id": 1,
+                  "text": "JSON export with tests."
+                },
+                {
+                  "option_id": 2,
+                  "text": "Parquet export with tests."
+                }
+              ],
+              "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+              "reveal_until": 1795340213,
+              "title": "Synthetic export preference",
+              "voters": [
+                "0x7434ae572fe729622edb306e04c90284b6a1247d"
+              ]
+            },
+            "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+            "schema": "intentballot-v1",
+            "tiers": [
+              [
+                0
+              ],
+              [
+                1
+              ],
+              [
+                2
+              ]
+            ]
+          },
+          "receipt_hash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+          "status": "CONFIRMED",
+          "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+        }
+      }
+    }
+  ],
+  "finalStats": {
+    "committed_ballots": 1,
+    "contract_version": "1.0.0",
+    "max_attempts": 3,
+    "max_options": 5,
+    "max_prompt_bytes": 30000,
+    "max_prompt_chars": 20000,
+    "max_voters": 6,
+    "polls": 1,
+    "receipt_schema": "intentballot-v1"
+  },
+  "verification": "The exact synthetic voter statement is committed and revealed, independently compiled into the complete intended ranking, explicitly confirmed by that voter, and deterministically finalized with the expected pairwise matrix and unique Kemeny winner.",
+  "pollId": 0,
+  "ballotId": 0,
+  "phaseSeconds": {
+    "commit": 120,
+    "reveal": 120,
+    "confirm": 300
+  },
+  "expectedRankingVerifiedBeforeConfirmation": true,
+  "receiptHash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+  "resultHash": "6bc535e52c438221efb677ce5092b24130240db725568a96a4410792ee6a0888",
+  "finalPoll": {
+    "ballot_ids": [
+      0
+    ],
+    "core": {
+      "chain_id": 61997,
+      "commit_until": 1795340093,
+      "confirm_until": 1795340513,
+      "context": "Choose a declared serialization format for an internal demo export tool. Descriptions are supplied assumptions, not verified product claims.",
+      "contract_address": "0x75f4b43af9462cd711421f8bc96a39c2acbfe023",
+      "created_at": 1795339973,
+      "id": 0,
+      "min_confirmed": 1,
+      "options": [
+        {
+          "option_id": 0,
+          "text": "CSV export with tests."
+        },
+        {
+          "option_id": 1,
+          "text": "JSON export with tests."
+        },
+        {
+          "option_id": 2,
+          "text": "Parquet export with tests."
+        }
+      ],
+      "owner": "0x7434ae572fe729622edb306e04c90284b6a1247d",
+      "reveal_until": 1795340213,
+      "title": "Synthetic export preference",
+      "voters": [
+        "0x7434ae572fe729622edb306e04c90284b6a1247d"
+      ]
+    },
+    "last_observed_at": 1795340516,
+    "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+    "result": {
+      "co_winner_ids": [
+        0
+      ],
+      "confirmed_ballots": [
+        {
+          "ballot_id": 0,
+          "commitment": "74d6fa0d9b3191d9776093c26535af18a1e3e6aeba69947f961c224350df6daa",
+          "confirmed_at": 1795340216,
+          "receipt_hash": "b6ad72e7588c864dab7c13439ec28b248c0a13b1e94c341ccdd24c4d8c070f20",
+          "tiers": [
+            [
+              0
+            ],
+            [
+              1
+            ],
+            [
+              2
+            ]
+          ],
+          "voter": "0x7434ae572fe729622edb306e04c90284b6a1247d"
+        }
+      ],
+      "confirmed_count": 1,
+      "finalized_at": 1795340516,
+      "min_confirmed": 1,
+      "optimal_orders": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "optimal_score": 3,
+      "options": [
+        {
+          "option_id": 0,
+          "text": "CSV export with tests."
+        },
+        {
+          "option_id": 1,
+          "text": "JSON export with tests."
+        },
+        {
+          "option_id": 2,
+          "text": "Parquet export with tests."
+        }
+      ],
+      "pairwise_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "poll_hash": "92cff0e4a43f3008c7c8370058af8063a4e8b66029e68b3968fcc5dacce85d05",
+      "poll_id": 0,
+      "result_hash": "6bc535e52c438221efb677ce5092b24130240db725568a96a4410792ee6a0888",
+      "schema": "intentballot-v1-tally",
+      "selected_option": 0,
+      "status": "DECIDED"
+    },
+    "revision": 5,
+    "status": "DECIDED"
+  },
+  "completedAt": "2026-11-22T09:42:35.383Z",
+  "redactions": {
+    "paths": [],
+    "note": "Salt fields in these persisted revealed ballot records were already public in the finalized reveal transaction. Complete canonical receipt payloads are preserved for hash recomputation. No private account material, unrevealed fixture entropy or raw provider transaction dump is included."
+  },
+  "sourceCommit": "8543d41b97d68c4ee2080cce5b06b45d282870fb",
+  "immutableSourceUrl": "https://github.com/zakazaka95/IntentBallot/blob/8543d41b97d68c4ee2080cce5b06b45d282870fb/IntentBallot.py"
+}

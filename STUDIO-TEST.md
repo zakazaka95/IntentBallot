@@ -1,9 +1,10 @@
 # IntentBallot reproducible Studio walkthrough
 
-This is a procedure, not network evidence. **Wait for the user's go before any
-publication, deployment or transactions.** Use synthetic technical preferences,
+This is the reproducible procedure. Actual execution evidence is recorded
+separately in [DEPLOYMENT.md](DEPLOYMENT.md). Use synthetic technical preferences,
 Normal / Full Consensus, simulation off and transaction value 0 GEN. Network fees
-are separate. Recheck the actual runner, chain and host schema at release time.
+are separate. The release pins the v0.4.0 runner; recheck your actual chain and
+host schema before reproducing it.
 
 Do not switch the selected Studio source while a transaction displays Sending or
 a deployment displays Deploying. Wait for the intended hash/address first.

@@ -1,0 +1,97 @@
+{
+  "name": "intentballot",
+  "chainId": 61997,
+  "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+  "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+  "transactions": [
+    {
+      "stage": "deployment",
+      "hash": "0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+      "finalization": {
+        "hash": "0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17"
+      }
+    },
+    {
+      "stage": "poll-open",
+      "hash": "0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+      "method": "open_poll",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+      "finalization": {
+        "hash": "0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8c8f589e973e6c5e8ea6157c8a8dd84479e87fa8d97118015651c7e265338187"
+      }
+    },
+    {
+      "stage": "ballot-commit",
+      "hash": "0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+      "method": "commit_ballot",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+      "finalization": {
+        "hash": "0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe337d330a33a49693b867af4de32628134e8a1c1e235a79afe8752cd9616b17"
+      }
+    },
+    {
+      "stage": "ballot-reveal",
+      "hash": "0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+      "method": "reveal_ballot",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+      "finalization": {
+        "hash": "0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xe70628c87d00b205e77632787b54fe0c21a95841db943b4427c854f2ba980a1d"
+      }
+    },
+    {
+      "stage": "ballot-assess",
+      "hash": "0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+      "method": "assess_ballot",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+      "finalization": {
+        "hash": "0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc4c2cfaeef8666f5f09ab8be550c273801d34e7a056b702fcbf0d1e7401a678b"
+      }
+    },
+    {
+      "stage": "ballot-confirm",
+      "hash": "0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+      "method": "confirm_ballot",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+      "finalization": {
+        "hash": "0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xb10a924382f23234670b2ba87d3b93a6bcbfb17206052f6abe3f285516499548"
+      }
+    },
+    {
+      "stage": "poll-finalize",
+      "hash": "0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+      "method": "finalize_poll",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+      "finalization": {
+        "hash": "0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x8ff3a3a4876f0b89faa74be7c5f5c2ed1483c9d86c277846ab4426c3e26a51db"
+      }
+    }
+  ]
+}

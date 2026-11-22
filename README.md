@@ -4,8 +4,18 @@ IntentBallot compiles a voter's own complete preference statement into ordered
 tiers, requires that voter to confirm the exact accepted interpretation, then
 computes a bounded Kemeny result without letting a model choose the winner.
 
-**Prepared locally on November 8, 2026 for the week beginning November 16.
-Not published, deployed or submitted. External release waits for the user's go.**
+**Published November 22, 2026.** The complete source, tests and reproducible
+walkthrough are included. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current
+network verification and release evidence.
+
+[Immutable contract source](https://github.com/zakazaka95/IntentBallot/blob/8543d41b97d68c4ee2080cce5b06b45d282870fb/IntentBallot.py).
+The current native source-schema check passes with the pinned v0.4.0 runner.
+Only the two runner-header lines changed from the archived prepared source;
+contract behavior is unchanged and all 32 controlled-output tests pass.
+
+The [live demonstration](evidence/demo-result.json) records exact semantic tiers,
+the voter's explicit confirmation and a deterministic `DECIDED` tally. All seven
+transactions succeeded and reached `FINALIZED`.
 
 ## Why the state matters
 
@@ -154,8 +164,9 @@ python -m unittest -v test_intentballot
 commitments and helper parity, explicit confirmation, complete receipt tampering,
 independent disagreement, ambiguity/retry finality, full prompt coverage, strict
 ranking schemas, Kemeny cycles/ties/quorum, clock regression and final result binding.
-These are not GenVM execution or model-accuracy benchmarks. Network schema,
-deployment, live model interpretation and actual voting transactions remain pending.
+These controlled-output tests are not GenVM execution or model-accuracy benchmarks.
+The current native source-schema check is separate evidence; deployment, live
+interpretation and actual voting results are recorded in DEPLOYMENT.md as observed.
 See [STUDIO-TEST.md](STUDIO-TEST.md), [DEPLOYMENT.md](DEPLOYMENT.md) and
 [SUBMISSION-PACK.md](SUBMISSION-PACK.md).
 

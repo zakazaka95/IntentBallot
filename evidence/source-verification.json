@@ -1,0 +1,37 @@
+{
+  "name": "intentballot",
+  "chainId": 61997,
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "contractAddress": "0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+  "contractUrl": "https://explorer-studio-dev.genlayer.com/address/0x75F4B43af9462cd711421F8Bc96a39C2acBfE023",
+  "deploymentTxHash": "0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+  "deploymentTxUrl": "https://explorer-studio-dev.genlayer.com/tx/0x65cf4ffe50dbd5da79469bb7cef6eeadd3f8123d164fb09f082757e17f312d17",
+  "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+  "normalizedLocalSourceSha256": "b87e9762136ba93f8965d8c5f0d35e0063c8c7fbe326a86efbdefe04c89a9455",
+  "normalizedDeployedSourceSha256": "b87e9762136ba93f8965d8c5f0d35e0063c8c7fbe326a86efbdefe04c89a9455",
+  "sourceComparison": "Complete source matches after CRLF/LF and edge-whitespace normalization",
+  "executionVerified": true,
+  "sourceHeader": [
+    "# v0.4.0",
+    "# { \"Depends\": \"py-genlayer:kzybg95x1gn21dw72m7hyg0maaap04n4nx55j9yt6fkdqxtz6bz0\" }"
+  ],
+  "sourceVersion": "1.0.0",
+  "repository": "https://github.com/zakazaka95/IntentBallot",
+  "sourceCommit": "8543d41b97d68c4ee2080cce5b06b45d282870fb",
+  "immutableSourceUrl": "https://github.com/zakazaka95/IntentBallot/blob/8543d41b97d68c4ee2080cce5b06b45d282870fb/IntentBallot.py",
+  "signerAddress": "0x7434ae572fe729622edB306e04C90284B6A1247d",
+  "transactionValue": "0",
+  "normalConsensus": true,
+  "initialOrLatestStats": {
+    "committed_ballots": 1,
+    "contract_version": "1.0.0",
+    "max_attempts": 3,
+    "max_options": 5,
+    "max_prompt_bytes": 30000,
+    "max_prompt_chars": 20000,
+    "max_voters": 6,
+    "polls": 1,
+    "receipt_schema": "intentballot-v1"
+  },
+  "runnerMigration": "Only the two header lines changed from v0.3.0/babwp9... to official v0.4.0/kzybg95...; original semantic source body preserved."
+}

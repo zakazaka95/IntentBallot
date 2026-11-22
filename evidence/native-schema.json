@@ -1,0 +1,175 @@
+{
+  "name": "intentballot",
+  "checkedAt": "2026-11-22T09:29:25.110Z",
+  "chainId": 61997,
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "sourceSha256": "472e7be31ac2307d88bb6e168117336e4ceda4f03829568c32e0e2cdb317bd5e",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "assess_ballot": {
+        "params": [
+          [
+            "ballot_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "commit_ballot": {
+        "params": [
+          [
+            "poll_id",
+            "int"
+          ],
+          [
+            "commitment",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "confirm_ballot": {
+        "params": [
+          [
+            "ballot_id",
+            "int"
+          ],
+          [
+            "expected_receipt_hash",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      },
+      "finalize_poll": {
+        "params": [
+          [
+            "poll_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "get_attempt": {
+        "params": [
+          [
+            "ballot_id",
+            "int"
+          ],
+          [
+            "attempt",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_ballot": {
+        "params": [
+          [
+            "ballot_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_poll": {
+        "params": [
+          [
+            "poll_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_stats": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "open_poll": {
+        "params": [
+          [
+            "title",
+            "string"
+          ],
+          [
+            "context",
+            "string"
+          ],
+          [
+            "options_json",
+            "string"
+          ],
+          [
+            "voters_json",
+            "string"
+          ],
+          [
+            "min_confirmed",
+            "int"
+          ],
+          [
+            "commit_seconds",
+            "int"
+          ],
+          [
+            "reveal_seconds",
+            "int"
+          ],
+          [
+            "confirm_seconds",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "reveal_ballot": {
+        "params": [
+          [
+            "ballot_id",
+            "int"
+          ],
+          [
+            "statement",
+            "string"
+          ],
+          [
+            "salt",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      }
+    }
+  },
+  "successful": true
+}
