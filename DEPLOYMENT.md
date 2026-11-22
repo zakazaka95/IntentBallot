@@ -29,7 +29,7 @@ separately and no award is claimed.
 | Deterministic tally readback | Score `3`; sole optimal order `[0, 1, 2]`; full pairwise matrix `[[0, 1, 1], [0, 0, 1], [0, 0, 0]]` |
 | Immutable final result SHA-256 | `6bc535e52c438221efb677ce5092b24130240db725568a96a4410792ee6a0888` |
 | Transaction finality | All seven synthetic network transactions successful and `FINALIZED`, checked November 22 at 09:42:35 UTC |
-| Portal contribution ID / status | Not submitted yet |
+| Portal contribution ID / status | `1f7da918-8ef7-46cc-afd4-990b2b0b8f7d` — [Pending review](https://portal.genlayer.foundation/my-submissions?q=IntentBallot), verified November 22, 2026, with four matching evidence items; no points awarded or claimed |
 
 ## Minimal runner migration
 
